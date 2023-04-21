@@ -17,4 +17,14 @@ public class MethodsTests {
     int[] input1 = { 12, 13, 7, 8, 5, 3};
     assertEquals(EvensExample.sumEvenIndices(input1), 24);
   }
+
+  @Test
+  public void Linked1(){
+    LinkedList l = new LinkedList();
+    l.append(3);
+    l.append(4);
+    l.append(20);
+    l.prepend(1);
+    assertEquals("1 3 4 20", l.toString());
+  }
 }
